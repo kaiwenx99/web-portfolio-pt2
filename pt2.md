@@ -6,11 +6,11 @@
 
 ## Step 1: Nginx Reverse Proxy Setup for HTTPS Backend
 
-### 🎯 Goal:
+### Goal:
 
 Configure an EC2 instance running Nginx to reverse proxy requests to an external HTTPS backend: `https://portfolio.play.kaiwenx.xyz/`
 
-### 🛠️ Steps:
+### Steps:
 
 1. Install Nginx
 
@@ -63,17 +63,17 @@ Configure an EC2 instance running Nginx to reverse proxy requests to an external
    curl http://localhost
    ```
 
-### ✅ Expected result:
+### Expected result:
 
 The portfolio page content returned by `curl`
 
-## Step 2: ✅ HAProxy Load Balancer Setup for Two Nginx Reverse Proxies
+## Step 2: HAProxy Load Balancer Setup for Two Nginx Reverse Proxies
 
-### 🎯 Goal:
+### Goal:
 
 Set up HAProxy on a third EC2 instance to load balance traffic between two existing Nginx reverse proxy servers.
 
-### 🛠️ Steps:
+### Steps:
 
 1. **Install HAProxy**
 
