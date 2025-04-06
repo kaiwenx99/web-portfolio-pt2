@@ -111,5 +111,4 @@ Set up HAProxy on a third EC2 instance to load balance traffic between two exist
 
    ```bash
    curl http://localhost
-   curl http://<HAProxy_Public_IP>
    ```
