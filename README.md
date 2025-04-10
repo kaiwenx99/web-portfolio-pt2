@@ -58,11 +58,3 @@ From your Flask app directory:
 ```bash
 ./vent/bin/gunicorn app:app --bind 0.0.0.0:5000
 ```
-
----
-
-## 5. Reload Caddy (if changed the Caddyfile)
-
-```bash
-sudo systemctl reload caddy
-```
